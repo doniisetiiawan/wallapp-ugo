@@ -56,15 +56,15 @@ export function create(req, res, next) {
         {
           posts: [_post],
         },
-        (err, content) => {
-          if (!err) {
-            return req.broadcast(content);
-          }
-          console.error(niceErr(err, true));
-        },
+        // (err, content) => {
+        //   if (!err) {
+        //     return req.broadcast(content);
+        //   }
+        //   console.error(niceErr(err));
+        // },
       );
     }
 
-    res.redirect('/');
+    // res.redirect('/');
   });
 }
