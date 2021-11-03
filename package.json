@@ -39,7 +39,7 @@
     "primus": "^7.3.4",
     "serve-static": "^1.14.1",
     "stack-trace": "^0.0.10",
-    "validator": "^13.0.0",
+    "validator": "^13.7.0",
     "ws": "^7.2.3"
   }
 }
